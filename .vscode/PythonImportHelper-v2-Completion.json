@@ -1,0 +1,99 @@
+[
+    {
+        "label": "randint",
+        "importPath": "random",
+        "description": "random",
+        "isExtraImport": true,
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "randint",
+        "importPath": "random",
+        "description": "random",
+        "isExtraImport": true,
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "emoji",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "emoji",
+        "description": "emoji",
+        "detail": "emoji",
+        "documentation": {}
+    },
+    {
+        "label": "name",
+        "kind": 5,
+        "importPath": "game-en",
+        "description": "game-en",
+        "peekOfCode": "name = str(input('Type your name: '))\nprint('\\n')\nprint(emoji.emojize(':fire: :fire: :fire: WELCOME TO THE GAME :fire: :fire: :fire:', use_aliases=True))\nprint('YOU CAN GUESS WHAT NUMBER I AM THINKING OF')\nprint('FROM 0 TO 100')\nnumber = randint(0, 100)\nflag = False\nattempts = 0\nwhile flag == False:\n    print(' ----------------- ')",
+        "detail": "game-en",
+        "documentation": {}
+    },
+    {
+        "label": "number",
+        "kind": 5,
+        "importPath": "game-en",
+        "description": "game-en",
+        "peekOfCode": "number = randint(0, 100)\nflag = False\nattempts = 0\nwhile flag == False:\n    print(' ----------------- ')\n    hunch = int(input('Your guess: '))\n    if(hunch == number):\n        flag = True\n    else:\n        attempts = attempts + 1",
+        "detail": "game-en",
+        "documentation": {}
+    },
+    {
+        "label": "flag",
+        "kind": 5,
+        "importPath": "game-en",
+        "description": "game-en",
+        "peekOfCode": "flag = False\nattempts = 0\nwhile flag == False:\n    print(' ----------------- ')\n    hunch = int(input('Your guess: '))\n    if(hunch == number):\n        flag = True\n    else:\n        attempts = attempts + 1\n        if(hunch < number):",
+        "detail": "game-en",
+        "documentation": {}
+    },
+    {
+        "label": "attempts",
+        "kind": 5,
+        "importPath": "game-en",
+        "description": "game-en",
+        "peekOfCode": "attempts = 0\nwhile flag == False:\n    print(' ----------------- ')\n    hunch = int(input('Your guess: '))\n    if(hunch == number):\n        flag = True\n    else:\n        attempts = attempts + 1\n        if(hunch < number):\n            #:arrow_up:",
+        "detail": "game-en",
+        "documentation": {}
+    },
+    {
+        "label": "name",
+        "kind": 5,
+        "importPath": "game-pt-br",
+        "description": "game-pt-br",
+        "peekOfCode": "name = str(input('Digite seu nome: '))\nprint('\\n')\nprint(emoji.emojize(':fire: :fire: :fire: BEM VINDO AO JOGO :fire: :fire: :fire:', use_aliases=True))\nprint('VOCÊ CONSEGUE ADIVINHAR QUE NUMERO ESTOU PENSANDO?')\nprint('DE 0 A 100')\nnumber = randint(0, 100)\nflag = False\nattempts = 0\nwhile flag == False:\n    print(' ----------------- ')",
+        "detail": "game-pt-br",
+        "documentation": {}
+    },
+    {
+        "label": "number",
+        "kind": 5,
+        "importPath": "game-pt-br",
+        "description": "game-pt-br",
+        "peekOfCode": "number = randint(0, 100)\nflag = False\nattempts = 0\nwhile flag == False:\n    print(' ----------------- ')\n    hunch = int(input('Seu palpite: '))\n    if(hunch == number):\n        flag = True\n    else:\n        attempts = attempts + 1",
+        "detail": "game-pt-br",
+        "documentation": {}
+    },
+    {
+        "label": "flag",
+        "kind": 5,
+        "importPath": "game-pt-br",
+        "description": "game-pt-br",
+        "peekOfCode": "flag = False\nattempts = 0\nwhile flag == False:\n    print(' ----------------- ')\n    hunch = int(input('Seu palpite: '))\n    if(hunch == number):\n        flag = True\n    else:\n        attempts = attempts + 1\n        if(hunch < number):",
+        "detail": "game-pt-br",
+        "documentation": {}
+    },
+    {
+        "label": "attempts",
+        "kind": 5,
+        "importPath": "game-pt-br",
+        "description": "game-pt-br",
+        "peekOfCode": "attempts = 0\nwhile flag == False:\n    print(' ----------------- ')\n    hunch = int(input('Seu palpite: '))\n    if(hunch == number):\n        flag = True\n    else:\n        attempts = attempts + 1\n        if(hunch < number):\n            #:arrow_up:",
+        "detail": "game-pt-br",
+        "documentation": {}
+    }
+]
